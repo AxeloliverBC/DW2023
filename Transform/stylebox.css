@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.body {
+    background-color: azure;
+}
+
+.backbox {
+    width: 220px;
+    height: 220px;
+    background-color: #a7a77a;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.recuadro1 {
+    width: 200px;
+    height: 200px;
+    background-color: #aa0;
+    border-radius: 20px;
+    padding: 10px;
+    transition:background-color,color 5s; /*ponemos una transicion al cuadro y texto, cambiando el color*/
+    transition: all 10s;
+}
+
+.recuadro1:hover {
+    background-color: blue;
+    color: white;
+    /*transform: translate(50px, 30px);*/ /*translate,transform,(positivo,negativo)*/
+    /*transform: translateX(200px);*/
+    /*transform: translateY(200px);*/
+    /*transform: rotate(360deg); /*realiza una rotacion en grados*/
+    /*transform: scale(.0,1.5);*/
+    transform: skew(35deg); /*tuerce el cuadro o inclina el cuadro de texto*/
+    opacity: 0.5;
+}
