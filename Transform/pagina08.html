@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacidad (color)</title>
+    <style>
+        #recuadro1 {
+            background-image: url("data:image/png;base64,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");
+            background-color: black;
+            color: #f00;
+            width: 700px;
+            height: 450px;
+            border-radius: 15px;
+            font-size: 45px;
+        }
+
+        #recuadro2 {
+            background-color: black;
+            color: #f00;
+            width: 700px;
+            height: 450px;
+            border-radius: 15px;
+            font-size: 45px;
+            margin-top: 10px;
+        }
+
+        .texto1 {
+            color: rgba(255, 255, 0);
+        }
+
+        .texto2 {
+            color: rgba(255, 255, 0, 0.5)
+        }
+
+        body {
+            background-color: white;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="recuadro1">
+        <p class="texto1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam molestiae provident
+            quisquam, consequatur iure tenetur, nemo, eveniet sed reprehenderit voluptate? Minima velit et earum minus
+            enim voluptatibus soluta dicta?</p>
+    </div>
+    <div id="recuadro2">
+        <p class="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut necessitatibus, officiis
+            cupiditate odio optio quidem totam quas dolorem nostrum doloribus atque quos et. Fuga reiciendis culpa
+            voluptatum. Voluptatum, sint officia!</p>
+    </div>
+</body>
+
+</html>
