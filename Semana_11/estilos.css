@@ -1,0 +1,18 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*transition-property: background-color,border-radius;*/
+    /*transition-duration: 1000ms;*/
+    /*transition: background-color, border-radius,transform,opacity 2500ms;*/
+    transition: all 2500ms;
+    display: inline-block;
+}
+.caja:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
+.caja:active{
+    transform: scale(.9);
+    opacity: .3;
+}
